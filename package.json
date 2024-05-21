@@ -1,0 +1,27 @@
+{
+  "name": "chat-client-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.6.2",
+    "eslint-plugin-typescript": "^0.14.0",
+    "install": "^0.13.0",
+    "reflect-metadata": "^0.2.1",
+    "socket.io-client": "^4.7.2",
+    "tsyringe": "^4.8.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.3.13",
+    "vite": "^4.4.5",
+    "vue": "^3.2.36"
+  }
+}
